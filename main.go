@@ -19,6 +19,7 @@ type Todo struct {
 }
 
 func main() {
+
 	todos := make(chan Todo, 10)
 
 	go func() {
